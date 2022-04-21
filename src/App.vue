@@ -1,30 +1,19 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+<!-- vue 2.0 需要根组件 vue 3.0 可以是代码片段Fragment -->
+  <div>
+
   </div>
-  <router-view/>
 </template>
 
-<style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
 
-#nav {
-  padding: 30px;
+export default {
+  name: 'App',
+  setup () {
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
   }
+
 }
+</script>
+<style lang="less" scoped>
 </style>
